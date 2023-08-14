@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+              "ID": 1,
+              "NAME": "Autzen Stadium",
+              "Tenant": "Oregon Ducks",
+              "ADDRESS": "2727 Leo Harris Parkway",
+              "City": "Eugene",
+              "State": "Oregon",
+              "Zip" : "97401",
+              "NOTES": "Outdoor",
+              "Capacity": "54000",
+              "Conference": "Pac 12",
+              "Surface": "Fieldturf",
+              "Opened": "23 Sep 1967",
+              "Cost": "2.5 Million",
+              "Description": "Home of the Oregon Ducks",
+              "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/04/autzen17950.jpg"
+              
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-123.0684196, 44.0584581]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "ID": 2,
+              "NAME": "California Memorial Stadium",
+              "Tenant": "Golden Bears",
+              "ADDRESS": "76 Canyon Rd",
+              "City": "Alameda",
+              "State": "California",
+              "Zip" : "94720",
+              "NOTES": "Outdoor",
+              "Capacity": "63000",
+              "Conference": "Pac 12",
+              "Surface": "Momentum Turf",
+              "Opened": "24 Nov 1923",
+              "Cost": "1.4 Million",
+              "Description": "Home of the Cal Bears",
+              "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/05/calmemorial17950.jpg"
+              
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-122.2505, 37.8693]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "ID": 3,
+              "NAME": "Husky Stadium",
+              "Tenant": "Washington Huskies",
+              "ADDRESS": "3800 Montlake Blvd NE",
+              "City": "Seattle",
+              "State": "Washington",
+              "Zip" : "98195",
+              "NOTES": "Outdoor",
+              "Capacity": "70138",
+              "Conference": "Pac 12",
+              "Surface": "Fieldturf",
+              "Opened": "27 Nov 1920",
+              "Cost": "600K",
+              "Description": "Home of the Dawgs",
+              "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/04/husky17952.jpg"
+              
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-122.301594, 47.650375]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+              "ID": 4,
+              "NAME": "Martin Stadium",
+              "Tenant": "Washington State Cougars",
+              "ADDRESS": "720 NE Stadium Way",
+              "City": "Pullman",
+              "State": "Washington",
+              "Zip" : "99163",
+              "NOTES": "Outdoor",
+              "Capacity": "32952",
+              "Conference": "Pac 12",
+              "Surface": "Fieldturf",
+              "Opened": "30 Sep 1972",
+              "Cost": "1 million",
+              "Description": "Home of the Cougars",
+              "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/05/martin.jpeg"
+              
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [-117.156266042, 46.725747097]
+            }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "ID": 5,
+            "NAME": "Reser Stadium",
+            "Tenant": "Oregon State Beavers",
+            "ADDRESS": "2600 SW Western Blvd",
+            "City": "Benton",
+            "State": "Oregon",
+            "Zip" : "97333",
+            "NOTES": "Outdoor",
+            "Capacity": "43363",
+            "Conference": "Pac 12",
+            "Surface": "Fieldturf",
+            "Opened": "14 Nov 1953",
+            "Cost": "1 million",
+            "Description": "Home of the Beavers",
+            "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/05/martin.jpeg"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-123.280303728, 44.5612280445]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "ID": 6,
+            "NAME": "Stanford Stadium",
+            "Tenant": "Oregon State Beavers",
+            "ADDRESS": "2600 SW Western Blvd",
+            "City": "Benton",
+            "State": "Oregon",
+            "Zip" : "97333",
+            "NOTES": "Outdoor",
+            "Capacity": "50424",
+            "Conference": "Pac 12",
+            "Surface": "Grass",
+            "Opened": "14 Nov 1953",
+            "Cost": "90 million",
+            "Description": "Home of the Beavers",
+            "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/05/martin.jpeg"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-122.1613533, 37.4343835]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "ID": 7,
+            "NAME": "Arizona Stadium",
+            "Tenant": "Arizona WildCats",
+            "ADDRESS": "1 N National Championship Dr",
+            "City": "Tucson",
+            "State": "Arizona",
+            "Zip" : "85719",
+            "NOTES": "Outdoor",
+            "Capacity": "50782",
+            "Conference": "Pac 12",
+            "Surface": "FieldTurf",
+            "Opened": "12 Oct 1929",
+            "Cost": "3.5",
+            "Description": "Home of the WildCats",
+            "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/04/arizona17950.jpg"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-110.942662896, 32.223999104]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "ID": 8,
+            "NAME": "Folsom Field",
+            "Tenant": "Colorado Buffaloes",
+            "ADDRESS": "2400 Colorado Ave",
+            "City": "Boulder",
+            "State": "Colorado",
+            "Zip" : "80305",
+            "NOTES": "Outdoor",
+            "Capacity": "53613",
+            "Conference": "Pac 12",
+            "Surface": "Grass",
+            "Opened": "11 Oct 1924",
+            "Cost": "3.5",
+            "Description": "Home of the WildCats",
+            "imgUrl": "https://www.collegegridirons.com/wp-content/uploads/2017/04/folsom.jpeg"
+            
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [-105.266832266, 40.005666644]
+          }
+        }
+        
+    ]
+}
