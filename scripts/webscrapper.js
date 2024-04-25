@@ -1,5 +1,24 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const fs = require('fs');
+
+//headers
+const headers = "Name" + " , " + "Address";
+
+//function to convert to json 
+function JsonToCSV(json, fileName){
+    const csvRows = json.map(obj => {
+        return `${obj.name},${obj.address}`
+    }).join('\n');
+
+    const csvContent = headers + csvRows;
+
+    const csvFilePath = `${fileName}.csv`;
+
+    fs.writeFileSync(csvFilePath, csvContent);
+
+    console.log(num, 'content');
+}
 
 // Function to fetch HTML content of a webpage
 async function fetchHTML(url) {
@@ -23,7 +42,7 @@ async function scrapeChiropractors() {
 
     // Adjust the CSS selectors according to the structure of the website you're scraping
     $('div.result').each((index, element) => {
-        const name = $(element).find('main').text().trim();
+        const name = $(element).find('a.main').text().trim();
         const address = $(element).find('span.sml').text().trim();
 
         chiropractors.push({
@@ -36,6 +55,7 @@ async function scrapeChiropractors() {
 }
 
 // Example usage
+
 scrapeChiropractors()
     .then(chiropractors => {
         console.log("Chiropractors in Western Washington region:");
@@ -45,5 +65,7 @@ scrapeChiropractors()
             console.log(`Address: ${chiropractor.address}`);
             console.log("----------");
         });
+
+        JsonToCSV(chiropractors, "Tacoma chiropractors")
     })
     .catch(error => console.error("Error scraping:", error));
